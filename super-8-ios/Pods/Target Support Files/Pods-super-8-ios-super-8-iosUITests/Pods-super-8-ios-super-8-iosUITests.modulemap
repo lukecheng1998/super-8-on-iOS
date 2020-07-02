@@ -1,0 +1,6 @@
+framework module Pods_super_8_ios_super_8_iosUITests {
+  umbrella header "Pods-super-8-ios-super-8-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

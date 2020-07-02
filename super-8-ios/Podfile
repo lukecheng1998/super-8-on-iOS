@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'super-8-ios' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for super-8-ios
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Analytics'
+  target 'super-8-iosTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'super-8-iosUITests' do
+    # Pods for testing
+  end
+
+end
